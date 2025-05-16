@@ -13,6 +13,8 @@ Before we dive into anonymous functions, we need to understand:
 2. What is a functional interface?
 3. Why do anonymous functions need functional interfaces?
 
+--- 
+
 ### ✅ 1. What Is a Function in Java?
 Traditionally, Java uses methods inside classes. A method is a named block of code you can call to perform an action.
 
@@ -52,6 +54,8 @@ interface Printer {
 }
 
 ```
+
+--- 
 
 ## 🧪 First Anonymous Function (Lambda Expression)
 
