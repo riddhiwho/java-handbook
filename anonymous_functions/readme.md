@@ -69,3 +69,41 @@ Or, if only one statement, you can skip {}:
 ```java
 (parameters) -> single_expression
 ```
+
+---
+
+## Difference between Anonymous Functions and Lambda Expressions
+
+### Anonymous Functions (General Concept)
+
+- An anonymous function is a generic term used in programming to describe a function without a name.
+- In Java, before lambdas were introduced (Java 8), the common way to achieve anonymous behavior was using anonymous classes.
+
+🔧 Example (pre-Java 8):
+
+```java
+Runnable task = new Runnable() {
+    @Override
+    public void run() {
+        System.out.println("Running in anonymous class");
+    }
+};
+```
+This is an anonymous class, and the method inside is an anonymous implementation of Runnable.
+
+
+### Lambda Expressions (Java 8+ feature)
+
+- A lambda expression is Java’s way of writing anonymous functions in a more concise way.
+- It works only with functional interfaces (interfaces with one abstract method).
+- Lambdas are a specific syntax to represent anonymous functions.
+
+🔧 Lambda Version (Java 8+):
+
+```java
+Runnable task = () -> System.out.println("Running in lambda");
+```
+
+✅ You can say:
+🔸 All lambdas are anonymous functions,
+🔸 but not all anonymous functions are lambdas (e.g., anonymous inner classes).

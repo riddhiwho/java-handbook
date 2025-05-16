@@ -35,6 +35,7 @@ public class Main{
         String res = names.stream()
         .filter(startsWithA)
         .collect(Collectors.joining(" "));
+        
         System.out.println(res);
         // .forEach(System.out::println);
         // .forEach(name -> System.out.print(name + " "));
