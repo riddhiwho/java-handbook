@@ -104,6 +104,6 @@ This is an anonymous class, and the method inside is an anonymous implementation
 Runnable task = () -> System.out.println("Running in lambda");
 ```
 
-✅ You can say:
-🔸 All lambdas are anonymous functions
-🔸 but not all anonymous functions are lambdas (e.g., anonymous inner classes).
+✅ You can say:  
+🔸 **All lambdas are anonymous functions**  
+🔸 **But not all anonymous functions are lambdas** (e.g., anonymous inner classes)
