@@ -105,5 +105,5 @@ Runnable task = () -> System.out.println("Running in lambda");
 ```
 
 ✅ You can say:
-🔸 All lambdas are anonymous functions,
+🔸 All lambdas are anonymous functions
 🔸 but not all anonymous functions are lambdas (e.g., anonymous inner classes).
